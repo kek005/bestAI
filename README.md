@@ -82,8 +82,7 @@ CSV vote logging and analytics dashboard
 
 Prompt templates (persona, tone, format)
 
-PDF upload and summary comparison (RAG support) 📬 
-
+PDF upload and summary comparison (RAG support)
 
 ---
 
@@ -93,6 +92,9 @@ Built with 💡 by Jesugnon KEKE
 📞 +1 (215) 600-4237
 
 ✅ Open to collaborations, jobs, feedback, and partnerships!
+
+---
+
 
 ## 📬 Contact
 

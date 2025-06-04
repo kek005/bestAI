@@ -84,14 +84,6 @@ Prompt templates (persona, tone, format)
 
 PDF upload and summary comparison (RAG support)
 
----
-
-## 📬 Contact
-Built with 💡 by Jesugnon KEKE
-📧 ancetreseul@gmail.com | jesugnon2014@gmail.com
-📞 +1 (215) 600-4237
-
-✅ Open to collaborations, jobs, feedback, and partnerships!
 
 ---
 

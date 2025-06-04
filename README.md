@@ -3,7 +3,7 @@
 **BestAI** is an interactive web app built with Streamlit that lets users compare answers from two different large language models (LLMs) like GPT-3.5 and GPT-4 — side-by-side. Users can enter any question, view both model outputs, and vote for the better answer.
 
 ### 🌟 Live Demo
-👉 [Click here to try LLM Duel](https://bestai-kek005.streamlit.app/)
+👉 [Click here to try BestAI](https://bestai-kek005.streamlit.app/)
 
 ---
 

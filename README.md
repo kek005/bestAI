@@ -84,9 +84,8 @@ Prompt templates (persona, tone, format)
 
 PDF upload and summary comparison (RAG support) 📬 
 
----
 
-##  📦 Setup Instructions
+---
 
 ## 📬 Contact
 Built with 💡 by Jesugnon KEKE
@@ -94,7 +93,6 @@ Built with 💡 by Jesugnon KEKE
 📞 +1 (215) 600-4237
 
 ✅ Open to collaborations, jobs, feedback, and partnerships!
-
 
 ## 📬 Contact
 

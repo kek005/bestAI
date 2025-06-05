@@ -20,7 +20,9 @@ st.title("🤖 BestAI — Which AI Answers Better?")
 # Prompt input
 prompt = st.text_area("Enter your question or prompt:", height=150)
 
-st.info(f"🧠 You have {MAX_USES - st.session_state.api_uses} uses remaining in this session.")
+# Only show usage info when there’s remaining quota
+if st.session_state.api_uses < MAX_USES:
+    st.info(f"🧠 You have {MAX_USES - st.session_state.api_uses} uses remaining in this session.")
 
 # Model selection (we'll start with GPT-3.5 vs GPT-4)
 model_options = ["gpt-3.5-turbo", "gpt-4"]
@@ -37,6 +39,7 @@ if st.button("Run Duel"):
 
             # Count this usage
             st.session_state.api_uses += 1
+            st.info(f"🧠 You have {MAX_USES - st.session_state.api_uses} uses remaining in this session.")
 
         # Display responses side-by-side
         col1, col2 = st.columns(2)

@@ -20,12 +20,16 @@ st.title("🤖 BestAI — Which AI Answers Better?")
 # Prompt input
 prompt = st.text_area("Enter your question or prompt:", height=150)
 
-# Only show usage info when there’s remaining quota
-if st.session_state.api_uses < MAX_USES:
-    st.info(f"🧠 You have {MAX_USES - st.session_state.api_uses} uses remaining in this session.")
+# Show remaining uses
+remaining = MAX_USES - st.session_state.api_uses
+if remaining > 0:
+    st.info(f"🧠 You have {remaining} uses remaining in this session.")
+else:
+    st.warning("⚠️ You’ve reached your usage limit for this session.")
+    st.stop()
 
 # Model selection (we'll start with GPT-3.5 vs GPT-4)
-model_options = ["gpt-3.5-turbo", "gpt-4"]
+model_options = ["gpt-4o-mini", "gpt-4.1-nano"]
 model1 = st.selectbox("Model A", model_options, index=0)
 model2 = st.selectbox("Model B", model_options, index=1)
 

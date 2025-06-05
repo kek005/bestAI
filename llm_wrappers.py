@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()  # Optional: if you're using a .env file
 client = OpenAI(api_key=os.getenv("OPENAI_DUEL_KEY"))
 
-def get_response_openai(prompt, model="gpt-3.5-turbo"):
+def get_response_openai(prompt, model="gpt-4o-mini"):
     try:
         completion = client.chat.completions.create(
             model=model,
